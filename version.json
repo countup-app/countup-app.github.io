@@ -1,7 +1,8 @@
 {
-  "version": "2.0.79.1",
-  "url": "https://countup-app.github.io/countup-2.0.79.1.zip",
-  "checksum": "3b2052e8e8216e5ad6ca254cdc213b43e8384b10e5edf96492c99ccd6d41e778",
-  "notes": "Términos actualizados (18+) y la PC sin tutoriales",
-  "date": "2026-11-16T03:00:19.696Z"
+  "version": "2.0.79.2",
+  "url": "https://countup-app.github.io/countup-2.0.79.2.zip",
+  "checksum": "f7d5f409d12daf5929ddd50d5cef924e8d58086ec09a0f4fa012de98035410ee",
+  "signature": "uGBWxCHyQAB54FCG+/wIlu+mb9GQVpSkxosb7++4t9uVDlyVqfZzppCezjtJlc11YHK4RmzB5lVFGS/v+f0sbQ==",
+  "notes": "Correcciones de seguridad (auditoría), pregunta al abrir enlaces del correo, actualizaciones firmadas y el total de la PC con la Apertura",
+  "date": "2026-11-18T03:43:42.577Z"
 }
