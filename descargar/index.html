@@ -5,42 +5,95 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Descargar CountÜp</title>
-<meta name="description" content="Descarga e instala CountÜp en tu teléfono Android.">
+<meta name="description" content="CountÜp lleva las cuentas de tu negocio: lo que cobras y pagas en bolívares, visto en dólares a la tasa BCV del día.">
 <meta name="theme-color" content="#0b0d11">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="icono.png">
 <link rel="stylesheet" href="../sitio.css">
 <style>
-  /* Página de descarga de CountÜp (countup-app.github.io). */
+  /* Página de descarga de CountÜp (countup-app.github.io). En la PC y el iPhone lo primero es usarla en el navegador;
+     en Android, descargar la app (el orden lo pone el script de abajo). QA 18 nov 2026. */
   :root { --action: #8a5cff; --focus: #8a5cff; }
   @media (prefers-color-scheme: dark) { :root { --focus: #b9a4ff; } }
   .btn--primary { background: linear-gradient(120deg, #b14dff 0%, #8a5cff 45%, #3d8bff 100%); }
   .app-icon { border-radius: 0; box-shadow: none; filter: drop-shadow(0 6px 14px rgba(90, 60, 200, .28)); }
+  .ways { display: flex; flex-direction: column; }
+  .ways .way { display: contents; }
+  .plans { display: grid; gap: 12px; }
+  .plan h3 { margin: 0 0 2px; font-size: 17px; }
+  .plan .price { margin: 0 0 8px; font-size: 22px; font-weight: 700; }
+  .plan .price small { font-size: 14px; font-weight: 500; opacity: .7; }
+  .plan ul { margin: 0; padding-left: 20px; }
+  .plan li { margin: 2px 0; }
+  .legal { margin-top: 32px; font-size: 14px; text-align: center; opacity: .85; }
+  .legal a { margin: 0 6px; }
 </style>
 </head>
 <body>
 <main>
   <img class="app-icon" src="icono.png" width="72" height="72" alt="">
-  <h1>Descargar CountÜp</h1>
-  <p class="lead">App para Android. Entra con tu cuenta y verás los mismos movimientos que en la PC.</p>
+  <h1>CountÜp</h1>
+  <p class="lead">Lleva las cuentas de tu negocio: anotas lo que cobras y lo que pagas en bolívares o en dólares, y ves el resultado en dólares a la tasa BCV del día. En el teléfono y en la PC, con la misma cuenta.</p>
 
-  <a class="btn btn--primary" href="../CountUp.apk" download="CountUp.apk">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
-    Descargar para Android
-  </a>
-  <p class="meta" id="meta">Versión 2.0.75 · Android 7 o superior · 10 MB</p>
-
-  <a class="btn btn--secondary" href="../app/">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8 20.5h8M12 17v3.5"/></svg>
-    Usar en la computadora
-  </a>
-  <p class="meta">Para usar CountÜp en la PC o la tablet, sin instalar nada.</p>
+  <div class="ways" id="ways">
+    <div class="way" id="way-android">
+      <a class="btn btn--primary" id="btn-android" href="../CountUp.apk" download="CountUp.apk">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+        Descargar para Android
+      </a>
+      <p class="meta" id="meta">Versión 2.0.75 · Android 7 o superior · 10 MB</p>
+    </div>
+    <div class="way" id="way-web">
+      <a class="btn btn--secondary" id="btn-web" href="../app/">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8 20.5h8M12 17v3.5"/></svg>
+        <span id="web-label">Usar en la computadora</span>
+      </a>
+      <p class="meta" id="web-meta">En la PC, la tablet o el iPhone, desde el navegador y sin instalar nada.</p>
+    </div>
+  </div>
+  <p class="meta" id="live" hidden></p>
 
   <section>
-    <h2>Cómo instalar</h2>
+    <h2>Planes</h2>
+    <p>Cada plan dura 30 días. Empiezas gratis; el pago de los otros planes se hace aparte, no dentro de la app.</p>
+    <div class="plans">
+      <div class="card plan">
+        <h3>Gratis</h3>
+        <p class="price">$0</p>
+        <ul>
+          <li>Hasta 50 movimientos en total (los que borres también cuentan)</li>
+          <li>Tu panel personal y 1 panel de socios</li>
+          <li>1 RIF</li>
+        </ul>
+      </div>
+      <div class="card plan">
+        <h3>Básico</h3>
+        <p class="price">$19,85 <small>cada 30 días</small></p>
+        <ul>
+          <li>Hasta 2.000 movimientos al mes en lo personal</li>
+          <li>3 paneles personales y 3 de socios; comparte tu panel con 3 personas</li>
+          <li>Business Mode: 1 empresa con 1 sede y 2 empleados</li>
+          <li>Recordatorios de pagos y hasta 3 RIF</li>
+        </ul>
+      </div>
+      <div class="card plan">
+        <h3>Pro</h3>
+        <p class="price">$33,75 <small>cada 30 días</small></p>
+        <ul>
+          <li>Hasta 2.000 movimientos al mes en cada panel</li>
+          <li>Paneles, empresas, sedes y empleados sin límite</li>
+          <li>Socios en tus empresas y colores de tu marca</li>
+          <li>Guardar tus movimientos para siempre (en los otros planes se borran solos a los 6, 12 o 18 meses, según elijas)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Cómo instalar en Android</h2>
     <div class="card">
       <ol>
-        <li>Toca <b>Descargar para Android</b> desde Chrome en tu teléfono. Si Chrome avisa que el archivo puede ser dañino, toca <b>Descargar de todas formas</b>: pasa con cualquier app que no viene de Play Store.</li>
+        <li>Toca <b>Descargar para Android</b> desde Chrome en tu teléfono. CountÜp todavía no está en Play Store, así que Chrome avisa que el archivo "puede ser dañino": es el aviso normal para cualquier app que se descarga fuera de Play Store. Toca <b>Descargar de todas formas</b>.</li>
         <li>Abre el archivo descargado. Si Android lo pide, permite <b>Instalar apps desconocidas</b> para Chrome.</li>
         <li>Toca <b>Instalar</b>. Si Play Protect dice que no conoce la app, toca <b>Más detalles → Instalar de todas formas</b>.</li>
         <li>Abre CountÜp y entra con tu cuenta, o crea una.</li>
@@ -58,16 +111,43 @@
   <section>
     <details>
       <summary>¿Ya tenías CountÜp instalada?</summary>
-      <p>Desde la versión 2.0.55 CountÜp es una app nueva para Android: se instala aparte y no reemplaza a la anterior. Instálala, entra con tu misma cuenta (tus movimientos están ahí) y, cuando en la anterior no quede nada esperando para subirse, desinstálala.</p>
+      <p>Desde la versión 2.0.55 CountÜp es una app nueva para Android: se instala aparte y no reemplaza a la anterior. Instálala y entra con tu misma cuenta: tus movimientos están ahí. Antes de desinstalar la anterior, ábrela con internet un momento para que termine de subir lo último que anotaste.</p>
     </details>
   </section>
 
   <section>
     <details>
-      <summary>¿Ya tienes Contábol?</summary>
-      <p>CountÜp se instala aparte: no reemplaza a Contábol ni borra nada. Entras con la misma cuenta y ves tus mismos movimientos.</p>
+      <summary>¿Usabas Contábol?</summary>
+      <p>Contábol es la versión anterior de CountÜp. CountÜp se instala aparte: no reemplaza a Contábol ni borra nada. Entras con la misma cuenta y ves tus mismos movimientos.</p>
     </details>
   </section>
+
+  <p class="legal"><a href="../terminos/">Términos</a> · <a href="../privacidad/">Privacidad</a> · <a href="../eliminar-cuenta/">Eliminar tu cuenta</a></p>
 </main>
+<script>
+  // En Android lo primero es descargar la app; en la PC y en el iPhone, usarla en el navegador.
+  (function () {
+    var ua = navigator.userAgent || ''
+    var android = /Android/i.test(ua)
+    var ios = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+    if (!android) {
+      var ways = document.getElementById('ways')
+      ways.insertBefore(document.getElementById('way-web'), document.getElementById('way-android'))
+      document.getElementById('btn-web').className = 'btn btn--primary'
+      document.getElementById('btn-android').className = 'btn btn--secondary'
+      if (ios) {
+        document.getElementById('web-label').textContent = 'Usar en el iPhone'
+        document.getElementById('web-meta').textContent = 'Se abre en Safari, sin instalar nada. La app para iPhone llegará más adelante.'
+      }
+    }
+    // La versión que tiene la app hoy (la instalada se pone al día sola al abrirla).
+    fetch('../version.json', { cache: 'no-store' }).then(function (r) { return r.json() }).then(function (j) {
+      if (!j || !j.version) return
+      var live = document.getElementById('live')
+      live.textContent = 'La app se pone al día sola: hoy va por la versión ' + j.version + '.'
+      live.hidden = false
+    }).catch(function () {})
+  })()
+</script>
 </body>
 </html>
