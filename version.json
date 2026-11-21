@@ -1,8 +1,8 @@
 {
-  "version": "2.0.80.1",
-  "url": "https://countup-app.github.io/countup-2.0.80.1.zip",
-  "checksum": "383676c5f5b39dc2497367ffc3b2c7f0333bd85b0e2aae0e2aad37fe44d64f1b",
-  "signature": "ug3byAqIHyxgUq+m97BKnUIoYv7kdNADQnO1EunD9YfQVBeiBn1ocqTEC83VrfXRMDlpyEYMN5btCIAj2doSGQ==",
-  "notes": "Pro sin límite en el Business Mode y de RIF, Omitir borrados sospechosos en el panel y la animación de arranque siempre",
-  "date": "2026-11-21T02:04:07.674Z"
+  "version": "2.0.80.2",
+  "url": "https://countup-app.github.io/countup-2.0.80.2.zip",
+  "checksum": "f116dc73d4b9ca366807273f1d037481dcb10ba8ba28a04e2bb61942de940b30",
+  "signature": "M8Cqzb28syNO46yWOy1Yh+m0ofpfJs2oDKXZbaCQ0GyjZ3V6epUQLWLkvbIvcT1HfxGMdX/ya44wFHysKeQUIg==",
+  "notes": "Menú nuevo en la barra de abajo con la tarjeta del plan, Ajustes en el botón de arriba del Menú y la Biblioteca del panel",
+  "date": "2026-11-21T04:09:39.508Z"
 }
