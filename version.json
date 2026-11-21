@@ -1,8 +1,8 @@
 {
-  "version": "2.0.80.3",
-  "url": "https://countup-app.github.io/countup-2.0.80.3.zip",
-  "checksum": "7aaa00ce63b4a3f4f8ed45c823eacf341106861b7316bf84fcb5deb9d90d8277",
-  "signature": "Ly6Uukeex7E+Vg0U6+Bd7n2LxPcUgm9rhp4JfGnrCK9XxLiZ8pF9gN4Te7mlu7I3vQDAODYd4QwAJIYAVa5KQg==",
-  "notes": "Barra de abajo con hueco para el + y el resaltado recortado junto a él",
-  "date": "2026-11-21T04:21:44.511Z"
+  "version": "2.0.80.4",
+  "url": "https://countup-app.github.io/countup-2.0.80.4.zip",
+  "checksum": "433e4e0b6e1f4f8e4088ee8016e78d7c54f0a330f1d05682921abd8588f8e228",
+  "signature": "R/pDcQjDA9QH372a4TRvoUQAzBeDv/mibcyguYTnwzIWDBSbOncsT4HVJYeVkQxgP8u1pkl7L+lk2fdzWIkbEw==",
+  "notes": "Versión nueva en ventana obligatoria y desenfoque en el hueco de la barra",
+  "date": "2026-11-21T17:51:33.715Z"
 }
