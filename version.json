@@ -1,8 +1,8 @@
 {
-  "version": "2.0.80",
-  "url": "https://countup-app.github.io/countup-2.0.80.zip",
-  "checksum": "ec026bd99e18c5f9e3e18b16261742709b1cc9db08a469501ff081dc4b550705",
-  "signature": "1/H7awHjvyuOMRX/B/X9gKtHMd1L14KLGaqzEg5uT5pHi9QsuQVJkJm23A3PL7Whm4qFwN7OSqpCG6I1fwLyzw==",
-  "notes": "Google Play: accesos en pausa por plan, fecha de los últimos 30 días, cajón de paneles, borrador, errores propios, Pro 5.000 por sede y QA",
-  "date": "2026-11-20T06:27:16.625Z"
+  "version": "2.0.80.1",
+  "url": "https://countup-app.github.io/countup-2.0.80.1.zip",
+  "checksum": "383676c5f5b39dc2497367ffc3b2c7f0333bd85b0e2aae0e2aad37fe44d64f1b",
+  "signature": "ug3byAqIHyxgUq+m97BKnUIoYv7kdNADQnO1EunD9YfQVBeiBn1ocqTEC83VrfXRMDlpyEYMN5btCIAj2doSGQ==",
+  "notes": "Pro sin límite en el Business Mode y de RIF, Omitir borrados sospechosos en el panel y la animación de arranque siempre",
+  "date": "2026-11-21T02:04:07.674Z"
 }
