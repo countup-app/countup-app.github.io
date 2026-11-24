@@ -1,8 +1,8 @@
 {
-  "version": "2.0.81",
-  "url": "https://countup-app.github.io/countup-2.0.81.zip",
-  "checksum": "a35a1b612762dce6fb0847a1c0c1e4e7da5080d4bda791d7d3031acd817b3f85",
-  "signature": "nh2BRH5gihOjJj4e35bAiOL/EcQZ1FiPAi+xjLOwUBV77KnSY4aePLzrgBG3MCBlJrS6iCz3avc/o4DesKSAwg==",
-  "notes": "Primera versión de producción en Google Play",
-  "date": "2026-11-22T17:53:22.387Z"
+  "version": "2.0.81.1",
+  "url": "https://countup-app.github.io/countup-2.0.81.1.zip",
+  "checksum": "a69a79d03ae3f6745f8c81977168cebf08689b4ad5b4f556491880a5d653023a",
+  "signature": "qORnm9KkkU1PNYqIkbPzQAWCgJCMS3hPE7GCVud2C15/DtW1WzKekVtVZrWlM+/t1gxa4MkmRfebYv2dIdYyWA==",
+  "notes": "Sin internet salen los paneles, el Business Mode y el plan",
+  "date": "2026-11-24T19:19:51.103Z"
 }
