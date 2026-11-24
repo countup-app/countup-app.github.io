@@ -1,8 +1,8 @@
 {
-  "version": "2.0.81.1",
-  "url": "https://countup-app.github.io/countup-2.0.81.1.zip",
-  "checksum": "a69a79d03ae3f6745f8c81977168cebf08689b4ad5b4f556491880a5d653023a",
-  "signature": "qORnm9KkkU1PNYqIkbPzQAWCgJCMS3hPE7GCVud2C15/DtW1WzKekVtVZrWlM+/t1gxa4MkmRfebYv2dIdYyWA==",
-  "notes": "Sin internet salen los paneles, el Business Mode y el plan",
-  "date": "2026-11-24T19:19:51.103Z"
+  "version": "2.0.81.2",
+  "url": "https://countup-app.github.io/countup-2.0.81.2.zip",
+  "checksum": "3c49adf439919f829c3b218d49ef2ba568be0446a418ed538d1ac9d612c5c239",
+  "signature": "sL0Ta60TSmScZJgFrjN15gqwLM+MqrekMEh6cW3Id/3PcCbGG56J8IhpHxk+iwDb+PhOTK0vP6EFZuYJBQ/tDw==",
+  "notes": "Versión nueva al abrir la app, botón Buscar actualización y aviso de Google Play arreglado",
+  "date": "2026-11-24T19:29:56.922Z"
 }
