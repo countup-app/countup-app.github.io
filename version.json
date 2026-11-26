@@ -1,8 +1,8 @@
 {
-  "version": "2.0.82",
-  "url": "https://countup-app.github.io/countup-2.0.82.zip",
-  "checksum": "93356cb34cc186119f3a19e0be66cf8eef7a2b298561712232d99413745f2580",
-  "signature": "oBMULb8GcjwvZvm3gXEGFPA3QXT6255n7Vd5qhZ2M9/BDX+Mr/bfPg8SXwD/lomNC7Zeqpa4mPqWMQshUNH1Bw==",
-  "notes": "Sin internet completo, mejoras al momento y Buscar actualización",
-  "date": "2026-11-24T19:37:56.370Z"
+  "version": "2.0.82.1",
+  "url": "https://countup-app.github.io/countup-2.0.82.1.zip",
+  "checksum": "f8b9a1ae28075d8402879f043809bc67d9ea482ee2ad084a128627d06d02c344",
+  "signature": "u9KVaG3VUZMb3VuGXvc415GVE+iwXx9+EOCAqA5Q5n3dbt3puF4wD9DiUZWtN2eqAwm/Je2Y8FgjPt0ym3a04w==",
+  "notes": "Pagos recurrentes: confirmar antes de eliminar, Deshacer, sin vencidos al cambiar el horario y aviso al momento",
+  "date": "2026-11-26T02:46:08.311Z"
 }
